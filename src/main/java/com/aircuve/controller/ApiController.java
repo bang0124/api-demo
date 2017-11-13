@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApiController {
 	
 	
-	@RequestMapping(value="/home", method=RequestMethod.GET) 
-	public String home() {
-		
-		JSONObject json = new JSONObject();
-		
-		
-		return json.toString();
-	}
+//	@RequestMapping(value="/home", method=RequestMethod.GET) 
+//	public String home() {
+//		
+//		JSONObject json = new JSONObject();
+//		
+//		
+//		return json.toString();
+//	}
 	
 }
