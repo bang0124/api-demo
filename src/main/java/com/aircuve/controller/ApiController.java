@@ -13,7 +13,7 @@ public class ApiController {
 	private static String userPwd = "password";
 	
 	
-	@RequestMapping(value="/login/request", method=RequestMethod.GET) 
+	@RequestMapping(value="/login/request", method=RequestMethod.POST) 
 	public String login(@RequestBody String body) {
 		
 		JSONObject bodyJson = new JSONObject(body);
